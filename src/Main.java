@@ -7,5 +7,8 @@ public class Main
         Person tom=new Person("Tom","qwerty");
         tom.displayPerson();
         tom.account.displayAccount();
+
+        NewPerson Sam=new NewPerson("Sam");
+        Sam.setAccount("qwerty");
     }
 }
