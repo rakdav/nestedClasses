@@ -8,6 +8,10 @@ public class Person
         account=new Account(passwd);
     }
 
+    public void displayPerson()
+    {
+        System.out.println("Name "+name+" password "+account.password);
+    }
     public class Account
     {
         private String password;
